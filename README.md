@@ -7,4 +7,4 @@ Notes by developer:
 - Implemented the app as per requirements
 - Implemented responsive design using media queries
 - Conducted developer testing for mobile views with browser developer tools
-- Implemented using HTML, CSS, JavaScript, react
+- Implemented using HTML, CSS, JavaScript, React
