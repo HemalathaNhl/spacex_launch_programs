@@ -1,0 +1,115 @@
+.App {
+  background-color: lightgrey;
+}
+#app_title {
+  font-weight: bold;
+  color: black;
+  font-size: 30px;
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+#filters {
+  background-color: white;
+  width: 12%;
+  border: lightgray solid 2px;
+  border-radius: 6px;
+  height: 100%;
+  margin: 10px;
+  padding: 10px;
+}
+
+#filters_title {
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: left;
+  padding: 0 10px 10px 10px;
+}
+#container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+#programs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 88%;
+  background-color: lightgrey;
+}
+#launch_year_filter_btns,
+#launch_successful_filter_btns,
+#land_successful_filter_btns {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+.btn_launch_year_filter,
+.btn_launch_successful_filter,
+.btn_land_successful_filter {
+  border-radius: 6px;
+  border: none;
+  padding: 5px 10px;
+  margin: 0 10px 15px 20px;
+}
+.filter_sub_title {
+  color: black;
+  text-align: center;
+}
+.btn_launch_successful_filter,
+.btn_land_successful_filter {
+  text-transform: capitalize;
+}
+.btn_normal {
+  background-color: lightgreen;
+  font-weight: normal;
+}
+.btn_selected {
+  background-color: green;
+  font-weight: bold;
+}
+hr {
+  width: 80%;
+  margin: 3px auto 10px;
+}
+.data_loading {
+  margin: 100px auto;
+}
+/*----- media query -----*/
+@media screen and (max-width: 700px) {
+  #container {
+    flex-direction: column;
+    align-items: center;
+  }
+  #filters {
+    width: 55%;
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 1024px) {
+  #container {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  #filters {
+    width: 30%;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1336px) {
+  #container {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  #filters {
+    width: 18%;
+  }
+}
+/* Developer */
+#developer {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  margin: 10px;
+  text-align: center;
+  padding: 10px 10px 20px 10px;
+}

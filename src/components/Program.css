@@ -1,0 +1,31 @@
+.program {
+  background-color: white;
+  padding: 16px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 6px;
+}
+.program_image {
+  background-color: grey;
+  max-width: 100%;
+}
+.program_row {
+  text-align: left;
+  padding-bottom: 10px;
+}
+.program_sub_title {
+  text-align: left;
+  font-weight: bold;
+  color: black;
+}
+.program_sub_value {
+  color: navy;
+}
+ul {
+  margin: 5px auto 5px 0;
+}
+.program_title {
+  color: navy;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
